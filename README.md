@@ -1,0 +1,2 @@
+## cYLo_Cards-detection
+Trying to implement self-supervised learning for unobserved in training data cards. If threshold given by Yolo is small for card, then label is given by the most "similiar" card.
