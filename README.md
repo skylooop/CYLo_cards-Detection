@@ -34,7 +34,6 @@ pip install open-metric-learning
 
 ## Weights
 
-| Default cards (52)  | dasdsdsa
-| ------------------- |:---------
+| Default cards (52)  | 
+| ------------------- |
 | [Cards](https://drive.google.com/file/d/1mdOGq-HdlIKMlzUMJzcpOw3FR3lDQTa_/view?usp=sharing)|
-|
