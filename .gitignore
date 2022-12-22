@@ -1,4 +1,5 @@
 #weights etc
+yolo5s.pt
 runs/train/weights
 datasets/
 
