@@ -1,6 +1,10 @@
 # Contrastive YoLo (cYLo) detection of cards
 
 Most of the code is taken from official [Yolo-v5](https://github.com/ultralytics/yolov5) repository. Kudos to ultralytics.
+
+## Examples:
+![alt text](https://github.com/skylooop/CYLo_cards-Detection/assets/val_batch0_pred.jpg)
+
 To install required dependences, run (note that numpy version should be <1.24.0):
 ```
 pip install -r requirements.txt
@@ -32,7 +36,7 @@ First, install Open-Metric-Learning library
 pip install open-metric-learning
 ```
 
-## Weights
+## Pretrained Weights
 
 | Default cards (52)  | 
 | ------------------- |
