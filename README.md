@@ -1,5 +1,6 @@
-## cYLo_Cards-detection
-Most of the code is taken from official [Yolo-v5](https://github.com/ultralytics/yolov5) repository
+## Contrastive YoLo (cYLo) detection of cards
+
+Most of the code is taken from official [Yolo-v5](https://github.com/ultralytics/yolov5) repository. Kudos to ultralytics.
 
 
 The idea is to implement self-supervised learning for cards, on which object detection model (like YoLo) was not trained. If threshold given by Yolo is small for card (thus most likely it was not in training dataset), then label is given by the most "similiar" card.
