@@ -3,7 +3,7 @@
 Most of the code is taken from official [Yolo-v5](https://github.com/ultralytics/yolov5) repository. Kudos to ultralytics.
 
 ## Examples:
-![alt text](https://github.com/skylooop/CYLo_cards-Detection/val_batch0_pred.jpg)
+<img src="https://github.com/skylooop/CYLo_cards-Detection/val_batch0_pred.jpg" width="200" height="200">
 
 To install required dependences, run (note that numpy version should be <1.24.0):
 ```
