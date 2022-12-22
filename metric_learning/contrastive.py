@@ -25,6 +25,7 @@ def main(args):
 
     train_dataset = DatasetWithLabels(args.path_to_csv, dataset_root=args.path_to_ds)
     criterion = TripletLossWithMiner(margin=0.1, miner=AllTripletsMiner())
+    
     sampler = BalanceSampler(train_dataset.get_labels(), n_labels=2, n_instances=2)
     train_loader = torch.utils.data.DataLoader(
         train_dataset, batch_sampler=sampler)

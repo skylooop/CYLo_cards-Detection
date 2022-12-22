@@ -14,6 +14,7 @@ pip install pyrallis
 The idea is to implement self-supervised learning for cards, on which object detection model (like YoLo) was not trained. If threshold given by Yolo is small for card (thus most likely it was not in training dataset), then label is given by the most "similiar" card (e.g in the sense of L2 norm or closest cluster of labels).
 
 ## Getting labeled dataset
+All data configs are located in `data` folder
 In roboflow folder you can find script for downloading different datasets into `datasets` folder like this:
 
 ```
