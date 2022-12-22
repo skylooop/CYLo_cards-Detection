@@ -2,6 +2,7 @@
 yolo5s.pt
 runs/train/weights
 datasets/
+runs/
 
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
 *.jpg

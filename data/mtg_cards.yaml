@@ -1,0 +1,7 @@
+names: ['MTG_card']
+nc: 1
+
+path: ./datasets/mtg_cards
+test: test
+train: train
+val: valid

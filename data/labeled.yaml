@@ -1,0 +1,7 @@
+path: ./datasets/labeled
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 37
+names: ['Abrupt decay', 'Assasins trophy', 'BG land', 'Canopy', 'Collected company', 'Forest', 'GW land', 'Ghost quarter', 'Knight of reliquary', 'Lilianaof the Veil', 'Noble hierarch', 'Plains', 'Scavenging ooze', 'Swamp', 'Tarmogoyf', 'Windswept heath', 'ancient stirrings', 'black bomb', 'bloodghast', 'chord of calling', 'dark confidant', 'druid', 'fast goblin', 'grafdigger', 'isalnd', 'kozelek inq', 'liliana new', 'mountain', 'remand', 'ruin', 'serum visions', 'shivan reef', 'spellstutter sprite', 'spirebuff', 'stitch sup', 'urza', 'vengevine']

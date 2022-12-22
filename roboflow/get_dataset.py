@@ -5,13 +5,13 @@ import os
 
 @dataclass
 class Project_CFG:
-    dataset_name: str = "mtg_cards"
+    dataset_name: str = "labelled_cards"
     save_path: str = field(default="./datasets")
     api_key: str = "d5bTIrPXus6KlhQsCC8V"
     workspace_name: str = "mtg-dwrx0"
     project: str = "mtg-i1iij"
     model: str = "yolov5"
-
+    version: int = 3
     def __post_init__(self):
         self.location = os.path.join(self.save_path, self.dataset_name)
 
@@ -20,7 +20,7 @@ def download(args) -> None:
 
     rf = Roboflow(api_key=args.api_key)
     project = rf.workspace(args.workspace_name).project(args.project)
-    dataset = project.version(1).download(args.model, location=args.location)
+    dataset = project.version(2).download(args.model, location=args.location)
 
 
 if __name__ == "__main__":
