@@ -36,5 +36,5 @@ pip install open-metric-learning
 
 | Default cards (52)  | dasdsdsa
 | ------------------- |:---------
-| [https://drive.google.com/file/d/1mdOGq-HdlIKMlzUMJzcpOw3FR3lDQTa_/view?usp=sharing](Pretrained Weights)|
+| [Cards](https://drive.google.com/file/d/1mdOGq-HdlIKMlzUMJzcpOw3FR3lDQTa_/view?usp=sharing)|
 |
