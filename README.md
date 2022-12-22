@@ -37,6 +37,8 @@ First, install Open-Metric-Learning library [OML](https://github.com/OML-Team/op
 pip install -U open-metric-learning
 ```
 Then, you will need to get csv file containing `path` and `label` columns to annotate several examples.
+For this, run `metric_learning/`
+
 To get embeddings of dataset, run `metric_learning/contrastive.py`
 
 ## Pretrained Weights

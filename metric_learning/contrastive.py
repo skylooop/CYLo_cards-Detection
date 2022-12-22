@@ -14,7 +14,7 @@ from dataclasses import field, dataclass
 
 @dataclass
 class CFG:
-    path_to_ds: str = field('../datasets/labeled')
+    path_to_ds: str = field('../datasets/labeled/train')
     path_to_csv: str = field('../datasets/labeled/labeled.csv')
     
 def main(args):
