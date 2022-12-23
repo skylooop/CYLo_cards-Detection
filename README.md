@@ -1,6 +1,6 @@
 # Contrastive YoLo (cYLo) detection of cards
 
-Most of the code is taken from official [Yolo-v5](https://github.com/ultralytics/yolov5) repository. Kudos to ultralytics.
+Most of the code regarding architecture of object detection is taken from official [Yolo-v5](https://github.com/ultralytics/yolov5) repository with minor changes. Kudos to ultralytics.
 
 ## Examples:
 <img src="val_batch0_pred.jpg" width="300" height="300"> <img src="embedding_example.png" width="300" height="300">
