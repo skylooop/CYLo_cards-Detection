@@ -1,4 +1,4 @@
-# Contrastive YoLo (cYLo) detection of cards
+# Contrastive YoLo (cYLo) Cards detection
 
 Most of the code regarding architecture of object detection is taken from official [Yolo-v5](https://github.com/ultralytics/yolov5) repository with minor changes. Kudos to ultralytics.
 
