@@ -12,7 +12,7 @@ pip install -r requirements.txt
 pip install pyrallis
 ```
 
-The idea is to implement self-supervised learning for cards, on which object detection model (like YoLo) was not trained. If threshold given by Yolo is small for card (thus most likely it was not in training dataset), then label is given by the most "similiar" card (e.g in the sense of L2 norm or closest cluster of labels).
+The idea is to implement self-supervised learning for cards, on which object detection model (like YoLo) was not trained. If threshold given by Yolo is small for card (thus most likely it was not in training dataset), then label is given by the most "similiar" card (e.g in the sense of L2 norm or closest cluster of labels). Thus, thereafter this technique can be used in auto labelling mode.
 
 ## Getting labeled dataset
 All data configs are located in `data` folder
