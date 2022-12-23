@@ -39,7 +39,7 @@ First, install Open-Metric-Learning library [OML](https://github.com/OML-Team/op
 pip install -U open-metric-learning
 ```
 Then, you will need to get csv file containing `path` and `label` columns with annotated several examples (in our experiments we annotated only 10% of cards for contrastive learning as warmup).
-For tutorial how to do this (complete walkthrough), look at [OML tutorial](https://github.com/skylooop/CYLo_cards-Detection/blob/master/metric_learning/tutorials/OML.ipynb) `metric_learning/tutorials/OML.ipynb` file. In our experiments, we took `ViTExtractor` as for trainable embedding head. And for training loss we took `TripletLoss`.
+For tutorial how to do this (complete walkthrough), look at our tutorial [OML tutorial](https://github.com/skylooop/CYLo_cards-Detection/blob/master/metric_learning/tutorials/OML.ipynb) `metric_learning/tutorials/OML.ipynb` file. In our experiments, we took `ViTExtractor` as for trainable embedding head. And for training loss we took `TripletLoss`.
 
 It is not hard to extend this for real time detection. 
 ## Pretrained Weights
