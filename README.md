@@ -3,8 +3,7 @@
 Most of the code is taken from official [Yolo-v5](https://github.com/ultralytics/yolov5) repository. Kudos to ultralytics.
 
 ## Examples:
-<img src="val_batch0_pred.jpg" width="200" height="200">
-<img src="embedding_example.png" width="200" height="200">
+<img src="val_batch0_pred.jpg" width="200" height="200"> <img src="embedding_example.png" width="200" height="200">
 
 ## Goal
 To install required dependences, run (note that numpy version should be <1.24.0):
